@@ -2,6 +2,8 @@ const { Router } = require('express');
 const router = Router();
 
 const bullshitController = require('./controllers/bullshitController');
+const bullshitSchema = require('./schemas/bullshitSchema');
+const { validateBody, validateQuery } = require('./services/validator');
 
 /**
  * Generates a random bullshit job title, with the possibility of adding sentence segments
@@ -12,7 +14,7 @@ const bullshitController = require('./controllers/bullshitController');
  * @param {string} position.query - the position can be provided
  * @returns {string} 200 - the job title generated
  */
-router.get('/bullshit', bullshitController.getBullshitJobTitle);
+router.get('/bullshit', validateQuery(bullshitSchema), bullshitController.getBullshitJobTitle);
 
 /**
  * Adds sentence segments' propositions and generates a job title whith those
@@ -23,6 +25,6 @@ router.get('/bullshit', bullshitController.getBullshitJobTitle);
  * @param {string} position.body - the position can be provided
  * @returns {string} 200 - the job title generated
  */
-router.post('/bullshit', bullshitController.addPropositions);
+router.post('/bullshit', validateBody(bullshitSchema), bullshitController.addPropositions);
 
 module.exports = router;

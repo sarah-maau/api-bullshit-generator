@@ -25,6 +25,7 @@ J'ai codé ce projet en une demi-journée.
 ## Stacks
 - Node.js
 - Express
+- Joi (pour valider le format des données)
 - JSDoc
 - Express-swagger
 

@@ -23,7 +23,7 @@ const randomInArray = list => {
  * @requires "data/parts.json"
  */
 const bullshitFactory = {
-    data: require('../../data/bullshit_jt.json'),
+    data: require('../../data/bullshitJt.json'),
     
     /**
      * Returns a random adjective among several proposals
