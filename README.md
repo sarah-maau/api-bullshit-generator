@@ -15,6 +15,8 @@ Exemples :
 
 Les utilisateurs peuvent soumettre des propositions via la query string. Ils ont aussi la possibilité de poster de nouvelles propositions que l'API gardera en mémoire.
 
+Le générateur est accessible [ici](https://bullshit-job-title-generator.herokuapp.com/api/bullshit)
+
 ## Réalisation
 J'ai entièrement réalisé ce projet Node.js lors de ma première semaine de spécialisation en API/data (quatrième mois de formation en développement web FS JavaScript).
 
@@ -28,6 +30,7 @@ J'ai codé ce projet en une demi-journée.
 - Joi (pour valider le format des données)
 - JSDoc
 - Express-swagger
+- Heroku
 
 ## Langages utilisés
 - JavaScript
