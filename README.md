@@ -61,7 +61,7 @@ npm i
 npm start
 ```
 
-5. Tester les routes via 
+5. Tester les routes via Swagger
 ```
 http://localhost:<port>/api-docs
 ```
