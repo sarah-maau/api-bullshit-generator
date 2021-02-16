@@ -38,6 +38,8 @@ J'ai codé ce projet en une demi-journée.
 
 ## Installation 
 
+**Node est requis pour utiliser ce code, pour le télécharger c'est [ici](https://nodejs.org/en/download/)** :) 
+
 1. Cloner le repo 
 - en utilisant la clé SSH
 ```
@@ -65,6 +67,8 @@ npm start
 ```
 http://localhost:<port>/api-docs
 ```
+## Auteur
+Sarah Maury - [GitHub](https://github.com/sarah-maau) - [LinkedIn](https://www.linkedin.com/in/sarahmaurydev/)
 
 ## Licence
 Ce projet est sous licence MIT - voir le fichier `LICENSE` pour plus de détails
