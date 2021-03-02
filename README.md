@@ -38,7 +38,9 @@ J'ai codé ce projet en une demi-journée.
 
 ## Installation 
 
-**Node est requis pour utiliser ce code, pour le télécharger c'est [ici](https://nodejs.org/en/download/)** :) 
+**Pré-requis**
+- Node.js pour le télécharger c'est [ici](https://nodejs.org/en/download/)
+
 
 1. Cloner le repo 
 - en utilisant la clé SSH
@@ -55,7 +57,7 @@ git clone https://github.com/sarah-maau/api-bullshit-generator.git
 ```
 npm i
 ```
-3. Créer un fichier .env reprenant les informations fournies dans le document `.env.example`
+3. Renommer le fichier `.env.example` en `.env` avec vos variables d'environnement
 
 4. Lancer le script
 
