@@ -69,6 +69,11 @@ npm start
 ```
 http://localhost:<port>/api-docs
 ```
+**Les ressources sont aussi accessibles ici :**
+```
+https://bullshit-job-title-generator.herokuapp.com/api/bullshit
+```
+
 ## Auteur
 Sarah Maury - [GitHub](https://github.com/sarah-maau) - [LinkedIn](https://www.linkedin.com/in/sarahmaurydev/)
 
